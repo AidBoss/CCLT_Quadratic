@@ -1,1 +1,1 @@
-# CCLT_Quadratic
+# form giai phuong trinh bac 2
