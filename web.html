@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form class="formpt2" action="">
+            <div class="header">
+                <h4> Giai phuong trinh bac hai: ax2 +bx+c = 0</h4>
+                so lan gia :<p id="solangiai"></p>
+            </div>
+            <div class="content">
+                <p id="inpt"><label for="a">Nhập số a:</label>
+                    <input type="text" id="a" placeholder="">
+                </p>
+                <p id="inpt"><label for="b">Nhập số b:</label>
+                    <input type="text" id="b" placeholder="">
+                </p>
+                <p id="inpt"><label for="c">Nhập số c:</label>
+                    <input type="text" id="c" placeholder="">
+                </p>
+                <div id="button_cl">
+                    <button type="button" id="btgiaipt" class="nut_khoa" onclick="gptb2(),solangiai()" disabled>Giải
+                        PT</button>
+                    <button type="button" id="btchoso" class="nut" onclick="choso()">Cho số</button>
+                </div>
+            </div>
+            <div id="kq">
+
+            </div>
+            <div id="time"></div>
+        </form>
+    </div>
+
+    <script src="Test.js"></script>
+</body>
+
+</html>
